@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+.header__hed{
+    background: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  
+
+}
+.box2 {
+    display: flex;
+    align-items: center;
+}
+.box2 a{
+    padding:  5px;
+}
+.box3 img{
+    padding: 0 5px;
+}
+.header__hed a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+
+    
+}
+
+
+.header__title{
+    height: 700px;
+    width: 100%;
+ background: url(../img/Header.png)  no-repeat center center;
+    text-align: center;
+   
+}
+.header__title h1{
+    font-weight: 400;
+    font-size: 100px;
+    padding: 100px 0 0 100px;
+    color: white;
+    
+}
+
+.header__title a h3{
+    max-width: 211px;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 0 0 0;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    
+
+} 
+.header__title a h3 img{
+    padding: 0 5px 0;
+}
+
+    
+.cards{
+    background: black;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding: 0 100px 0;
+}
+.card{
+    background: black;
+    display: flex;
+    
+    justify-content: space-around;
+  
+  
+}
+
+    
+.card p{
+    color: white;
+    width: 400px;
+    height: 135px;
+    padding: 30px 0  40px 0px ;
+}
+.cards1{
+    background: black;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding: 0 100px 0;
+}
+.card1{
+    display: flex;
+    
+    justify-content: space-around;
+  
+  
+}
+
+    
+.card1 p{
+    color: white;
+    width: 400px;
+    height: 135px;
+    padding: 180px 0  40px 0px ;
+}
+.cards2{
+    background: black;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding: 0 100px 0;
+}
+.card2{
+    display: flex;
+    
+    justify-content: space-around;
+  
+  
+}
+
+    
+.card2 p{
+    color: white;
+    width: 400px;
+    height: 135px;
+    padding: 180px 0  40px 0px ;
+}
+.cards3{
+    background: black;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin: 0 50px;
+
+
+
+}
+.card3{
+  
+justify-content: space-between;
+    display: flex;
+    
+    align-items: center;
+    padding: 0%;
+    margin: 1%;
+   
+}
+
+
+.card3 a {
+    text-decoration: none;
+
+}
+.card3 a h3{
+    padding: 6px  10px 20px;
+    background: black;
+    width: 161px;
+    height: 34px;
+    left: 292px;
+    top: 2290px;
+    color: white;
+    text-align: center;
+}
+.card3 a h4{
+    color: black;
+    padding: 10px 20px ;
+    font-weight: 400;
+    font-size: 14px;   
+}
+.card3 h3{
+    padding: 5px 0px;
+    font-family: 'Montserrat';
+     font-style: normal;
+    font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+}
+.bos{
+    
+    padding: 0 200px 0;
+    background: white;
+    padding: 10px 50px 0;
+    width: 240px;
+    height: 299px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+
+.bos1{
+    padding: 0 300px ;
+    background: white;
+    width: 240px;
+    height: 299px;
+    border-radius: 10px;
+    padding: 10px 50px 40px;
+    margin: 0 20px;
+    
+}
+
+.bos2{
+    padding: 0 200px;
+    background: white;
+    width: 240px;
+    height: 299px;
+    border-radius: 10px;
+    padding: 10px 50px 0;
+    margin: 0 20px;
+}
+.bos3{
+    padding: 0 200px;
+    background: white;
+    width: 240px;
+    height: 299px;
+    border-radius: 10px;
+    padding: 10px 50px 0;
+    margin: 0 20px;
+}
+footer{
+    
+   height: 100px;
+}
+.footer__card a{
+    width: 300px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.footer__cards{
+    height: 100px;
+    background: #282828;
+    align-items: center;
+}
+.footer__card{
+    padding: 20px 0 0 0;
+    align-items: center;
+    display: flex;
+   justify-content: space-around;
+    
+    
+}
+.box1 img{
+    padding: 0 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.klep{
+    background: black;
+    height: 1500px;
+}
+
+ img::after{
+    content: "";
+    color: red;
+      display: inline-block;
+      width: 100px;
+      height: 2px;
+      background-color: white;
+}
